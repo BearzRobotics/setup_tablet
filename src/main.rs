@@ -99,7 +99,6 @@ fn run_xinput(debug_flag: u8, monitor: String, id: u8){
     // Prints an error message if presents
     let s = String::from_utf8(c.stderr);
     println!("{:?}", s);
-
 }
 
 /// This fucntion here is for debug purposes.
