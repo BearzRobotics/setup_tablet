@@ -28,8 +28,8 @@ fn main() {
     }
 
     // pull out substring 
-    let ugee_pen_string = get_sub_string(debug_flag, "UGEE TABLET MONITOR Mouse".to_string());
-    let ugee_mouse_string = get_sub_string(debug_flag, "UGEE TABLET MONITOR Pen".to_string());
+    let ugee_pen_string = get_sub_string(debug_flag, "UGEE TABLET MONITOR Pen stylus".to_string());
+    let ugee_mouse_string = get_sub_string(debug_flag, "UGEE TABLET MONITOR Pad pad".to_string());
 
     // get id from sub string
     let ugee_pen_id = get_device_id(debug_flag, ugee_pen_string);    
